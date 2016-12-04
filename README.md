@@ -11,7 +11,7 @@ Quickstart
 ----------
 
 1.) Include the css file, jQuery and the Plugin
-2.) Create the desired elements that you want to scroll (You can create normal divs, wich contain other elements, images, videos...)
+2.) Create the desired elements that you want to scroll (You can create normal divs, which contain other elements, images, videos...)
 3.) Assign them the class "scroll" if you want to like the styles from the css-file, otherwise give them the following attributes:
     position: fixed;	// All scrollable elements have to be position:fixed
     bottom: 0;	// Make it stick to the bottom (or top)

@@ -10,14 +10,17 @@ body
 body
 {
   overflow-x: hidden;
-  background: url('../images/bg.jpg') repeat top left;
+  background: url('../images/.jpg') repeat top left;
 }
 
 h1
 {
-  font-size: 20px;
+  font-size: 60px;
   font-weight: normal;
   color: #2e6e80;
+  margin-bottom: 650px;
+  margin-left: 40px;
+  font-family: elegant_typewriter;
 }
 
 /**
@@ -39,12 +42,15 @@ h1
 {
   z-index: 1;
   width: 3000px;
+  padding-left: 420px;
+  padding-bottom: 90px;
 }
 
 .middle
 {
   z-index: 500;
   width: 4000px;
+  padding-left: 300px;
 }
 
 .front
@@ -52,3 +58,4 @@ h1
   z-index: 1000;
   width: 6000px;
 }
+
