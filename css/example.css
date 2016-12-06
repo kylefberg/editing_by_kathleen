@@ -15,12 +15,12 @@ body
 
 h1
 {
-  font-size: 60px;
+  font-size: 70px;
   font-weight: normal;
   color: #2e6e80;
-  margin-bottom: 650px;
+  margin-bottom: 600px;
   margin-left: 40px;
-  font-family: elegant_typewriter;
+  font-family: elegant-typewriter;
 }
 
 /**
@@ -51,6 +51,7 @@ h1
   z-index: 500;
   width: 4000px;
   padding-left: 300px;
+  justify-content: space-between 100px;
 }
 
 .front
