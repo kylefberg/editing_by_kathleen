@@ -10,14 +10,14 @@ body
 body
 {
   overflow-x: hidden;
-  background: url('../images/.jpg') repeat top left;
+  background: url('../images/bookshelf.jpg') repeat center;
 }
 
 h1
 {
   font-size: 70px;
   font-weight: normal;
-  color: #2e6e80;
+  color: pink;
   margin-bottom: 600px;
   margin-left: 40px;
   font-family: elegant-typewriter;
@@ -41,22 +41,27 @@ h1
 .horizon
 {
   z-index: 1;
-  width: 3000px;
-  padding-left: 420px;
+  width: 4000px;
+  padding-left: 375px;
   padding-bottom: 90px;
 }
 
 .middle
 {
   z-index: 500;
-  width: 4000px;
+  width: 5000px;
   padding-left: 300px;
   justify-content: space-between 100px;
+
 }
 
 .front
 {
   z-index: 1000;
-  width: 6000px;
+  width: 7000px;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 40px;
+  margin-left: -500px;
 }
 
