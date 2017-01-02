@@ -4,6 +4,7 @@ body
   padding: 0;
   margin: 0;
   font-family: elegant, typewriter;
+
 }
 
 /* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
@@ -15,7 +16,7 @@ h1
 {
   font-size: 70px;
   font-weight: normal;
-  color: white;
+  color: black;
   margin-top: 75px;
   margin-left: 40px;
   font-family: elegant-typewriter;
@@ -41,7 +42,7 @@ h1
 .horizon
 {
   overflow-x: hidden;
-  background: url('../images/bookshelf.jpg') repeat center;
+  background-color: #FFE5CC;
   z-index: 1;
   width: 9000px;
   padding-left: 375px;
@@ -67,16 +68,81 @@ h1
   margin-left: -500px;
 }
 
-.whoNeeds {
+.typewriter {
   min-height: 950px;
-  background-color: white;
+  background: url('../images/typewriter.jpg');
   display: inline-block;
-  margin-left: 1200px;
-  margin-top: -50px;
+  margin-left: -6900px;
+  margin-top: 0px;
   margin-bottom: 0px;
   padding: 100px;
   padding-top: 130px;
   font-size: 35px;
+  text-align: center;
+  color: black;
+  min-width: 1000px;
+  /*opacity: 0.9;*/
+}
+
+.books {
+  min-height: 950px;
+  background: url('../images/bookshelf.jpg');
+  display: inline-block;
+  margin-left: -1900px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 100px;
+  padding-top: 130px;
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  min-width: 1000px;
+  /*opacity: 0.9;*/
+}
+
+.kathleen {
+  max-height: 450px;
+  background-color: #FFE5CC;
+  display: inline-block;
+  margin-left: -2200px;
+  padding: 100px;
+  padding-top: 100px;
+  margin-top: 175px;
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  opacity: 0.9;
+  border-radius: 50%;
+}
+
+.why {
+  /*overflow-x: hidden;*/
+  background-color: #FFE5CC;
+  z-index: 1;
+  width: 1000px;
+  padding-left: 2000px;
+  padding-bottom: 90px;
+}
+
+.dont {
+  /*margin-left: -9600px;*/
+  margin-top: 290px;
+  color: black;
+  font-size: 60px;
+
+}
+
+
+.about {
+  min-height: 950px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 1510px;
+  margin-top: -50px;
+  margin-bottom: 0px;
+  padding: 100px;
+  padding-top: 130px;
+  font-size: 30px;
   text-align: center;
   color: black;
   opacity: 0.9;
