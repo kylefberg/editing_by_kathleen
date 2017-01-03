@@ -93,7 +93,7 @@ h3 {
   min-height: 950px;
   background: url('../images/there.png');
   display: inline-block;
-  margin-left: -900px;
+  margin-left: -965px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 100px;
@@ -118,17 +118,24 @@ h3 {
 
 .kathleen {
   max-height: 450px;
+  max-width: 800px;
   background-color: #FFE5CC;
-  display: inline-block;
-  margin-left: 4200px;
-  padding: 100px;
-  padding-top: 100px;
-  margin-top: 175px;
+  margin-left: 4400px;
+  padding-top: 20px;
   font-size: 35px;
   text-align: center;
   color: black;
   opacity: 0.9;
-  border-radius: 50%;
+}
+
+.photo {
+  background: url('../images/kathleenpic.jpg');
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  min-height: 300px;
+  max-width: 300px;
+  margin-left: 4650px;
+  margin-top: 65px;
 }
 
 .need {
