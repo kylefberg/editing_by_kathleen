@@ -213,21 +213,8 @@ h3 {
 
 }
 
-.there {
-  min-height: 950px;
 
-  background-repeat: no-repeat;
-  display: inline-block;
-  margin-left: -965px;
-  margin-top: 35px;
-  margin-bottom: 0px;
-  padding: 100px;
-  padding-top: 130px;
-  min-width: 406px;
-
-}
-
-.books {
+.contact {
   min-height: 950px;
   display: inline-block;
   margin-left: -1900px;
