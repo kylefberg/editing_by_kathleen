@@ -3,7 +3,7 @@ body
 {
   padding: 0;
   margin: 0;
-  font-family: elegant, typewriter;
+  font-family: sans-serif;
 
 }
 
@@ -17,7 +17,7 @@ h1 {
   color: black;
   margin-top: 75px;
   margin-left: 40px;
-  font-family: elegant-typewriter;
+  font-family: sans-serif;
 }
 
 h3 {
@@ -286,6 +286,7 @@ h3 {
 
 .about1 {
   min-height: 950px;
+  max-width: 950px;
   display: inline-block;
   margin-left: 5500px;
   margin-top: 215px;
