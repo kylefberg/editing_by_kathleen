@@ -14,7 +14,7 @@ body {
 h1 {
   font-size: 70px;
   font-weight: normal;
-  color: black;
+  color: white;
   margin-top: 75px;
   margin-left: 40px;
   font-family: sans-serif;
@@ -23,7 +23,7 @@ h1 {
 h3 {
   font-size: 40px;
   font-weight: normal;
-  color: black;
+  color: white;
   margin-left: -140px;
 }
 
@@ -48,11 +48,12 @@ h3 {
 .horizon
 {
   overflow-x: hidden;
-  background: url('../images/flower.png');
+  background: url('../images/bookshelf.jpg');
   z-index: 1;
   width: 5500px;
   padding-left: 375px;
   padding-bottom: 90px;
+  opacity: 0.9;
 }
 
 .middle
@@ -80,9 +81,9 @@ h3 {
   margin-top: 60px;
   font-size: 37px;
   text-align: center;
-  color: black;
+  color: white;
   opacity: 1.0;
-  text-shadow: 20px 20px 8px gray;
+  text-shadow: 20px 20px 8px black;
 }
 
 .judge {
@@ -98,7 +99,7 @@ h3 {
   color: black;
   min-width: 125px;
   opacity: 1.0;
-  box-shadow: 20px 20px 20px gray;
+  box-shadow: 20px 20px 20px black;
 }
 
 .gospel {
@@ -114,7 +115,7 @@ h3 {
   color: black;
   min-width: 125px;
   opacity: 1.0;
-  box-shadow: 20px 20px 20px gray;
+  box-shadow: 20px 20px 20px black;
 }
 
 .lustre {
@@ -130,7 +131,7 @@ h3 {
   color: black;
   min-width: 125px;
   opacity: 1.0;
-  box-shadow: 20px 20px 20px gray;
+  box-shadow: 20px 20px 20px black;
 }
 
 .practical {
@@ -146,7 +147,7 @@ h3 {
   color: black;
   min-width: 125px;
   opacity: 1.0;
-  box-shadow: 20px 20px 20px gray;
+  box-shadow: 20px 20px 20px black;
 }
 
 .inspiring {
@@ -162,7 +163,7 @@ h3 {
   color: black;
   min-width: 125px;
   opacity: 1.0;
-  box-shadow: 20px 20px 20px gray;
+  box-shadow: 20px 20px 20px black;
 }
 
 .pet {
@@ -178,7 +179,7 @@ h3 {
   color: black;
   min-width: 125px;
   opacity: 1.0;
-  box-shadow: 20px 20px 20px gray;
+  box-shadow: 20px 20px 20px black;
 }
 
 .wounds {
@@ -194,7 +195,7 @@ h3 {
   color: black;
   min-width: 155px;
   opacity: 1.0;
-  box-shadow: 20px 20px 20px gray;
+  box-shadow: 20px 20px 20px black;
 }
 
 
@@ -224,7 +225,7 @@ h3 {
   padding-top: 130px;
   font-size: 35px;
   text-align: center;
-  color: black;
+  color: white;
   min-width: 1000px;
   /*opacity: 0.9;*/
 }
@@ -237,7 +238,7 @@ h3 {
   padding-top: 313px;
   font-size: 35px;
   text-align: center;
-  color: black;
+  color: white;
   opacity: 0.9;
 }
 
@@ -249,7 +250,7 @@ h3 {
   padding-top: 313px;
   font-size: 35px;
   text-align: center;
-  color: black;
+  color: white;
   opacity: 0.9;
 }
 
@@ -261,7 +262,7 @@ h3 {
   max-width: 300px;
   margin-left: 4358px;
   margin-top: 300px;
-  box-shadow: 20px 20px 20px gray;
+  box-shadow: 20px 20px 20px black;
   border-radius: 20px;
 }
 
@@ -270,7 +271,7 @@ h3 {
   margin-top: 245px;
   font-size: 30px;
   font-weight: normal;
-  color: black;
+  color: white;
   text-align: center;
 
 
@@ -279,7 +280,7 @@ h3 {
 .dont {
   /*margin-left: -9600px;*/
   margin-top: 290px;
-  color: black;
+  color: white;
   font-size: 60px;
 
 }
@@ -295,7 +296,7 @@ h3 {
   padding-top: 130px;
   font-size: 30px;
   text-align: center;
-  color: black;
+  color: white;
   opacity: 0.9;
 }
 
@@ -310,7 +311,7 @@ h3 {
   padding-top: 130px;
   font-size: 30px;
   text-align: center;
-  color: black;
+  color: white;
   opacity: 0.9;
 }
 
@@ -325,7 +326,7 @@ h3 {
   padding-top: 130px;
   font-size: 30px;
   text-align: center;
-  color: black;
+  color: white;
   opacity: 0.9;
 }
 
@@ -334,7 +335,7 @@ h3 {
   margin-top: 100px;
   font-size: 30px;
   font-weight: normal;
-  color: black;
+  color: white;
   text-align: center;
 }
 
