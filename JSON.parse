@@ -1,0 +1,11 @@
+ node version
+6.2.2
+
+{
+  "name": "editingbykathleen",
+  "description": "my wifes awesome app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.2.2"
+  }
+}
