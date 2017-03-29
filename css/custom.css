@@ -52,9 +52,9 @@ h3 {
   background-size: contain;
   z-index: 1;
   width: 5500px;
-  padding-left: 375px;
+  padding-left: 386px;
   padding-bottom: 90px;
-  opacity: 0.9;
+  opacity: 0.6;
 }
 
 .middle
@@ -268,8 +268,8 @@ h3 {
 }
 
 .need {
-  margin-left: -4000px;
-  margin-top: 245px;
+  margin-left: -4850px;
+  margin-top: -220px;
   font-size: 30px;
   font-weight: normal;
   color: black;
@@ -278,7 +278,6 @@ h3 {
 }
 
 .dont {
-  /*margin-left: -9600px;*/
   margin-top: 290px;
   color: black;
   font-size: 60px;
@@ -299,7 +298,6 @@ h3 {
   color: black;
   opacity: 0.9;
 }
-
 .about2 {
   min-height: 750px;
   max-width: 900px;
