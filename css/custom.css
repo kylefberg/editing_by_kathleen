@@ -48,7 +48,7 @@ h3 {
 .horizon
 {
   overflow-x: hidden;
-  background: url('../images/library.jpg');
+  background: url('../images/library.png');
   background-size: contain;
   z-index: 1;
   width: 5500px;
