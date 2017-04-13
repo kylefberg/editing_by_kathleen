@@ -57,7 +57,7 @@
         </p>
     </div>
 
-     <div class="middle scroll">
+    <div class="middle scroll">
         <p class="kathleen2">
             She can take your rough draft and make it shine, from the
             big picture to the minute details.
@@ -89,14 +89,48 @@
         </p>
     </div>
 
-
+    <!-- <button type="button" class="btn btn-default">button</button> -->
 
     <div class="front scroll">
-      <p class="contact">
-        <div class="email"><a href="mailto:katfberg@gmail.com">Click Here To Contact Me!<img src="" alt=""></a>
+      <form method="post" class="contactMe">
+
+        <div class="form-group">
+          <label for="title" class="col-sm-4">What's your name?</label>
+          <input class="form-control" placeholder="Put your name here" name="title" id="title" rows="12"></input>
         </div>
-      </p>
+
+        <div class="form-group">
+          <label for="comment" class="col-sm-2">Tell me a little about yourself </label>
+          <textarea class="form-control" placeholder="Please enter a comment" name="comment" id="comment" rows="9"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="post_categories" class="form-group" class="col-sm-2">What can I help you with? </label>
+          <select label="post_categories" class="form-control" name= "post_categories">
+            <optgroup label="post_categories" class="form-group">
+              <option value="Editing">Editing </option>
+              <option value="Copywriting">Copywriting </option>
+              <option value="Resume Creation">Resume Creation </option>
+              <option value="Blogging"> Blogging </option>
+              <option value="Proof Reading"> Proof Reading </option>
+              <option value="Term Papers"> Term Papers </option>
+              <option value="Procedure Manual Creation/Editing"> Procedure Manual Creation/Editing </option>
+              <option value="Other"> Other </option>
+            </optgroup>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
     </div>
+
+
+    <p class="contact">
+      <div class="email"><a href="mailto:katfberg@gmail.com">Click Here To Contact Me!<img src="" alt=""></a>
+      </div>
+    </p>
+
+
 
     <footer>
       <div class="footer-copyright">
@@ -106,59 +140,6 @@
       </div>
     </footer>
 
-
-
-    <!-- <form method="post">
-
-      <div class="form-group">
-        <label for="title" class="col-sm-2">Title: </label>
-        <input class="form-control" placeholder="Title your pin" name="title" id="title" rows="9"></input>
-      </div>
-
-      <div class="form-group">
-        <label for="comment" class="col-sm-2">Description: </label>
-        <textarea class="form-control" placeholder="Please enter a comment" name="comment" id="comment" rows="9"></textarea>
-      </div>
-
-      <div class="form-group">
-        <label for="post_categories" class="form-group" class="col-sm-2">Category: </label>
-        <select label="post_categories" class="form-control" name= "post_categories">
-          <optgroup label="post_categories" class="form-group">
-            <option value="Marketing">Marketing</option>
-            <option value="Legal Services">Legal Services</option>
-            <option value="Accounting Services">Accounting Services</option>
-            <option value="Coding/Programming"> Coding/Programming </option>
-            <option value="Human Resources"> Human Resources </option>
-            <option value="Software"> Software </option>
-            <option value="Hardware"> Hardware </option>
-            <option value="Finance"> Finance </option>
-            <option value="Sales"> Sales </option>
-            <option value="Business Dev"> Business Dev </option>
-            <option value="Design"> Design </option>
-            <option value="Leadership"> Leadership </option>
-            <option value="Project Management"> Project Management </option>
-            <option value="Ecommerce"> Ecommerce </option>
-            <option value="Angel/Seed"> Angel/Seed Investment </option>
-            <option value="Venture Capital"> Venture Capital </option>
-            <option value="General Business"> General Business </option>
-            <option value="Other"> Other </option>
-          </optgroup>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label for="isPublic" class="form-group" class="col-sm-2">Make it public? </label>
-        <select label="isPublic" class="form-control" name= "isPublic">
-          <optgroup label="Select" class="form-group">
-            <option selected="selected" value="false"> No </option>
-            <option value="true"> Yes</option>
-          </optgroup>
-        </select>
-      </div>
-
-      <button type="submit" class="btn btn-success">Submit</button>
-  </form>
- -->
 
 
 

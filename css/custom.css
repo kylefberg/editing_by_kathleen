@@ -355,3 +355,8 @@ h3 {
   text-align: center;
 }
 
+.contactMe {
+  margin-left: 11800px;
+  margin-top: 200px;
+  pointer-events: painted;
+}
