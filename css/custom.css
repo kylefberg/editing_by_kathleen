@@ -37,7 +37,7 @@ h3 {
   bottom: 0;
   top: 0px;
   left: 0;
-
+  pointer-events: none;
 }
 
 
@@ -49,6 +49,7 @@ h3 {
 {
   overflow-x: hidden;
   background: url('../images/library.png');
+  pointer-events: none;
   background-size: contain;
   z-index: 1;
   width: 5500px;
@@ -62,8 +63,9 @@ h3 {
   z-index: 500;
   width: 10000px;
   padding-left: 300px;
+  background-size: contain;
   justify-content: space-between 100px;
-
+  pointer-events: none;
 }
 
 .front
@@ -72,8 +74,10 @@ h3 {
   width: 12000px;
   display: inline-block;
   text-align: center;
+  background-size: contain;
   padding-bottom: 40px;
   margin-left: -500px;
+  pointer-events: none;
 }
 
 .work {
@@ -85,11 +89,13 @@ h3 {
   color: black;
   opacity: 1.0;
   text-shadow: 20px 20px 8px black;
+  pointer-events: none;
 }
 
 .judge {
   min-height: 192px;
   background: url('../images/dontJudge.png');
+  pointer-events: visiblePainted;
   background-repeat: no-repeat;
   display: inline-block;
   margin-right: 600px;
@@ -106,6 +112,7 @@ h3 {
 .gospel {
   min-height: 192px;
   background: url('../images/gospel.png');
+  pointer-events: visiblePainted;
   background-repeat: no-repeat;
   display: inline-block;
   margin-left: 90px;
@@ -122,6 +129,7 @@ h3 {
 .lustre {
   min-height: 192px;
   background: url('../images/lustre.png');
+  pointer-events: visiblePainted;
   background-repeat: no-repeat;
   display: inline-block;
   margin-left: 90px;
@@ -138,6 +146,7 @@ h3 {
 .practical {
   min-height: 192px;
   background: url('../images/practical.png');
+  pointer-events: visiblePainted;
   background-repeat: no-repeat;
   display: inline-block;
   margin-left: 90px;
@@ -154,6 +163,7 @@ h3 {
 .inspiring {
   min-height: 192px;
   background: url('../images/inspiring.png');
+  pointer-events: visiblePainted;
   background-repeat: no-repeat;
   display: inline-block;
   margin-left: 90px;
@@ -170,6 +180,7 @@ h3 {
 .pet {
   min-height: 192px;
   background: url('../images/pet.png');
+  pointer-events: visiblePainted;
   background-repeat: no-repeat;
   display: inline-block;
   margin-left: 90px;
@@ -186,6 +197,7 @@ h3 {
 .wounds {
   min-height: 192px;
   background: url('../images/wounds.png');
+  pointer-events: visiblePainted;
   background-repeat: no-repeat;
   display: inline-block;
   margin-left: 90px;
@@ -212,7 +224,7 @@ h3 {
   padding: 100px;
   padding-top: 130px;
   opacity: 1.0;
-
+  pointer-events: none;
 }
 
 
@@ -241,6 +253,7 @@ h3 {
   text-align: center;
   color: black;
   opacity: 0.9;
+  pointer-events: none;
 }
 
 .kathleen2 {
@@ -253,6 +266,7 @@ h3 {
   text-align: center;
   color: black;
   opacity: 0.9;
+  pointer-events: none;
 }
 
 .photo {
@@ -265,6 +279,7 @@ h3 {
   margin-top: 300px;
   box-shadow: 20px 20px 20px black;
   border-radius: 20px;
+  pointer-events: none;
 }
 
 .need {
@@ -281,7 +296,7 @@ h3 {
   margin-top: 290px;
   color: black;
   font-size: 60px;
-
+  pointer-events: none;
 }
 
 .about1 {
@@ -297,6 +312,7 @@ h3 {
   text-align: center;
   color: black;
   opacity: 0.9;
+  pointer-events: none;
 }
 .about2 {
   min-height: 750px;
@@ -311,6 +327,7 @@ h3 {
   text-align: center;
   color: black;
   opacity: 0.9;
+  pointer-events: none;
 }
 
 .about3 {
@@ -326,6 +343,7 @@ h3 {
   text-align: center;
   color: black;
   opacity: 0.9;
+  pointer-events: none;
 }
 
 .email {
