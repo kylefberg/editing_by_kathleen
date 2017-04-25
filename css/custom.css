@@ -55,7 +55,7 @@ h3 {
   width: 5500px;
   padding-left: 386px;
   padding-bottom: 90px;
-  opacity: 0.6;
+  opacity: 0.4;
 }
 
 .middle
@@ -366,9 +366,20 @@ h3 {
 .form-control {
   width: 250px;
   height: 20px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .form-controlabout {
   width: 400px;
   height: 200px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.btn-success {
+  width: 200px;
+  height: 35px;
+  border-radius: 20px;
+  color: darkred;
 }
