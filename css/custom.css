@@ -363,7 +363,7 @@ h3 {
   pointer-events: painted;
 }
 
-.form-control {
+/*.form-control {
   width: 250px;
   height: 20px;
   text-align: center;
@@ -382,4 +382,4 @@ h3 {
   height: 35px;
   border-radius: 20px;
   color: darkred;
-}
+}*/
