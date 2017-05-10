@@ -2,7 +2,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var expressValidator = require('express-validator');
 
-
+var mystring = "contactMe";
+mystring = mystring.replace('/+','/');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
