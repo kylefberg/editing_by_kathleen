@@ -103,49 +103,38 @@
 
 
 
-<!--     <div class="front scroll">
-      <form method="post" class="contactMe">
+    <div class="front scroll">
+      <form
+        action="mailto:katfberg@gmail.com"
+        method="POST"
+        enctype="multipart/form-data"
+        name="EmailTestForm"
+        class="contactMe">
 
-        <div class="form-group">
-          <label for="name" class="col-sm-6">What's your name?</label>
-          <input class="form-control" placeholder="Put your name here" name="title" id="name" rows="9"></input>
-        </div>
-        <br/>
+        Your Name:<br>
+        <input type="text" size="20" name="VisitorName"><br><br>
 
-        <div class="form-group">
-          <label for="email" class="col-sm-6">What's your email?</label>
-          <input class="form-control" placeholder="Email" name="title" id="email" rows="9"></input>
-        </div>
-        <br/>
+        Tell me about your project:<br>
+        <textarea name="VisitorComment" rows="12" cols="60">
+        </textarea><br><br>
 
-        <div class="form-group">
-          <label for="comment" class="col-sm-6">Tell me a little about your project. </label>
-          <textarea class="form-controlabout" placeholder="Your project" name="comment" id="comment" rows="9"></textarea>
-        </div>
-        <br/>
-
-        <div class="form-group">
-          <label for="post_categories" class="form-group" class="col-sm-6">What can I help you with? </label>
-          <select label="post_categories" class="form-control" name= "post_categories">
-            <optgroup label="post_categories" class="form-group">
-              <option value="Blogging"> Blogging </option>
-              <option value="Copywriting">Copywriting </option>
-              <option value="Editing">Editing </option>
-              <option value="Procedure Manual Creation/Editing"> Procedure Manual Creation/Editing </option>
-              <option value="Proof Reading"> Proof Reading </option>
-              <option value="Resume Creation">Resumé Creation </option>
-              <option value="Term Papers"> Term Papers </option>
-              <option value="Other"> Other </option>
-            </optgroup>
-          </select>
-        </div>
-        <br/>
-        <form method="post" action="mailto:kylefberg@me.com" >
-          <input type="submit" value="Send Email" />
-        </form>
-        <!- <button type="submit" class="btn btn-success">Submit</button> -->
- <!--      </form>
-    </div> -->
+        <label for="post_categories" class="form-group" class="col-sm-6">What can I help you with? </label>
+        <select label="post_categories" class="form-control" name= "post_categories">
+          <optgroup label="post_categories" class="form-group">
+            <option value="Blogging"> Blogging </option>
+            <option value="Copywriting">Copywriting </option>
+            <option value="Editing">Editing </option>
+            <option value="Procedure Manual Creation/Editing"> Procedure Manual Creation/Editing </option>
+            <option value="Proof Reading"> Proof Reading </option>
+            <option value="Resume Creation">Resumé Creation </option>
+            <option value="Term Papers"> Term Papers </option>
+            <option value="Other"> Other </option>
+          </optgroup>
+        </select>
+        <br>
+        <input type="submit" value="Email This Form">
+      </form>
+    </div>
 
 
     <footer>
@@ -173,5 +162,7 @@
       });
   }(jQuery));
   </script>
+  <script>var mystring = "";
+mystring = mystring.replace('/+','/');</script>
 </body>
 </html>
